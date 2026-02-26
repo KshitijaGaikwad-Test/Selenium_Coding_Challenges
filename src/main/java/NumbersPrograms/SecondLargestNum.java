@@ -27,7 +27,7 @@ public class SecondLargestNum {
         }
         System.out.println("Second Largest number is :" + input[1]);
 
-        System.out.println("Second Largest number is :" + Arrays.toString(input));
+        System.out.println("Descending order of numbers :" + Arrays.toString(input));
 
     }
 }

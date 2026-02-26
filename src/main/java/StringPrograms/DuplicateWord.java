@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class FindDuplicateWord {
+public class DuplicateWord {
     public static void main(String[] args) {
         String input = "Java is programming language java is nice";
         String[] output = input.split(" ");

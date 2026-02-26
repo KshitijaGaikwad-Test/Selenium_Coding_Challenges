@@ -8,11 +8,10 @@ public class SumOfGivenNumber {
 
         while(number!=0){
             output = number%10;
-            sum = sum +output;
+            sum = sum + output;
             number = number/10;
         }
 
-        System.out.println(sum
-        );
+        System.out.println(sum);
     }
 }

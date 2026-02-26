@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class CharOccurrence {
+public class CharOccurrenceIndex {
     public static void main(String[] args) {
         String input = "amazonnazaa";
         int firstIndex = -1;

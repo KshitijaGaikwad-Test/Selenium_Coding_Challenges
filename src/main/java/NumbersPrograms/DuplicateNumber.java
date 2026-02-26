@@ -5,7 +5,7 @@ public class DuplicateNumber {
         int[] num = {2, 3, 7, 5, 3, 2, 9};
         boolean[] isVisited = new boolean[num.length];
 
-        for (int i = 0; i < num.length - 1; i++) {
+        for (int i = 0; i < num.length; i++) {
             if (isVisited[i]) {
                 continue;
             }
