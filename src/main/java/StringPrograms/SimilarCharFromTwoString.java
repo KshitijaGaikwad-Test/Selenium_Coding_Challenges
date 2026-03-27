@@ -3,7 +3,7 @@ package StringPrograms;
 public class SimilarCharFromTwoString {
     public static void main(String[] args) {
             String input1 = "Kshitija";
-            String input2 = "Mayur";
+            String input2 = "Gaikwad";
 
             char[] iparr1 = input1.toLowerCase().toCharArray();
             char[] iparr2 = input2.toLowerCase().toCharArray();

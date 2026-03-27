@@ -14,7 +14,7 @@ public class HandleDynamicDropdown {
         driver.manage().window().maximize();
 
         WebElement dropEle = driver.findElement(By.xpath("//select[@id='country']"));
-        Select optionToBeSelected = new Select(dropEle);
+        Select select = new Select(dropEle);
 
         //Select option from the dropdown
             //1. Using Select Class -
@@ -24,7 +24,7 @@ public class HandleDynamicDropdown {
 
 
         //Capture the options list from the dropdown using getOptions() method
-        List<WebElement> options = optionToBeSelected.getOptions();
+        List<WebElement> options = select.getOptions();
         System.out.println("Total options from dropdown :"+options.size());
 
         //Print all available options using for loop

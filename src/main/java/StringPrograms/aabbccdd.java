@@ -29,8 +29,7 @@ public class aabbccdd {
            }
            output = output + ch + occurrence;
 
-        }
 
-        System.out.println(output);
     }
-}
+        System.out.println(output);
+}}
